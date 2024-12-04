@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+</head>
+
+<!-- CSS section -->
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #fff;
+    }
+    
+    .counter-container {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    h1 {
+        color: rgb(23, 23, 68);
+        font-size: 80px;
+    }
+    
+    #counter-value {
+        font-size: 100px;
+    }
+    
+    .btn {
+        padding: 10px 10px;
+        margin-right: 30px;
+        margin-top: 50px;
+        border-color: black;
+        letter-spacing: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    
+    .btn:hover {
+        background-color: black;
+        color: white;
+    }
+    
+    .button-container {
+        margin-left: 30px;
+    }
+    
+    .decrease {
+        padding: 10px 40px;
+    }
+    
+    .increase {
+        padding: 10px 40px;
+    }
+    
+    .reset {
+        padding: 10px 30px;
+    }
+</style>
+
+<body>
+    <!-- Html section -->
+    <div class="counter-container">
+        <h1>Counter</h1>
+        <span id="counter-value">0</span>
+        <div class="button-container">
+            <button class="btn decrease">DECREASE</button>
+            <button class="btn reset">RESET</button>
+            <button class="btn increase">INCREASE</button>
+        </div>
+    </div>
+
+    <!-- JavaScript Link -->
+    <script src="./counter.js"></script>
+
+</body>
+
+</html>
